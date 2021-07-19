@@ -1,136 +1,145 @@
-body{
-    font-family: 'Poppins', sans-serif;
-    margin: 0 auto;
-    padding: 10px 50px;
-    width: 70%;
-}
-.section-flex{
-    display: flex;
-     justify-content: space-around; 
-}
-.color-word{ color: #FBA24F; }
-
-.btn{
-    text-decoration: none;
-    color: white;
-    background: linear-gradient(to right, #FBA24F,  #FF1E1E);
-    padding: 20px 40px;
-    border-radius: 100px;
-    box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
-}
-.font-size-50px{
-    color: #676767;
-    font-size: 50px;
-    font-weight: bold;
-}
-p{
-    line-height: 2em;
-    margin-bottom: 10%;
-    letter-spacing: 0.1em;
-}
-.order-section{
-    padding-bottom: 10%;
-    background-color: #E5E5E5;
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0 auto;
+  padding: 10px 50px;
+  width: 70%;
 }
 
-.order-heading{
-    padding-top: 5%;
-    padding-left: 5%;
-    padding-right: 10%;
+.section-flex {
+  display: flex;
+  justify-content: space-around; 
 }
 
-.width-50percent{ width: 50%; }
-#order-section-img{ width: 90%; }
+.color-word { color: #FBA24F; }
 
-.about-section{
-    background-image: url(images/about_setion_bg.png);
-    background-repeat: no-repeat;
-    backgroung-size: cover;
-}
-#about-section-image{
-    width: 50%;
-    padding-left: 40%;
-    padding-top: 27%;
-}
-.about-heading{
-    padding-top: 8%;
-    padding-right: 10%;
-    padding-left: 10%;
-    padding-bottom: 10%;
-}
-.recipies-section{
-    text-align: center;
-    margin-bottom: 10%;
+.btn {
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(to right, #FBA24F,  #FF1E1E);
+  padding: 20px 40px;
+  border-radius: 100px;
+  box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
 }
 
-.recipies-section p{
-    margin-bottom: 5%;
+.font-size-50px {
+  color: #676767;
+  font-size: 50px;
+  font-weight: bold;
 }
 
-.recipies-card{
-    width: 25%;
-    padding: 5px;
-    background-color: white;
-    border-radius: 5%;
-    box-shadow: 0px 0px 40px 0px #00000026;
+p {
+  line-height: 2em;
+  margin-bottom: 10%;
+  letter-spacing: 0.1em;
 }
 
-.recipies-card img{
-    padding-top: 2%;
-    width: 90%;
+.order-section {
+  padding-bottom: 10%;
+  background-color: #E5E5E5;
 }
 
-
-.recipies-card h3{
-    text-align: start;
-    padding-left: 8%;
+.order-heading {
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 10%;
 }
 
-.recipies-card p{
-    text-align: start;
-    padding-left: 8%;
+.width-50percent { width: 50%; }
+#order-section-img { width: 90%; }
+
+.about-section {
+  background-image: url(images/about_setion_bg.png);
+  background-repeat: no-repeat;
+  backgroung-size: cover;
 }
 
-
-.media-section{
-    margin: 5% auto;
-    width: 80%;
-    border-radius: 20px;
-    border: 1px solid #FFF;
+#about-section-image {
+  width: 50%;
+  padding-left: 40%;
+  padding-top: 27%;
 }
 
-.media-section h1{
-    margin-bottom: 0px;
-    margin-top: 20%;
-    font-weight: bold;
+.about-heading {
+  padding-top: 8%;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-bottom: 10%;
 }
 
-.media-section p{
-    margin-top: 0px;
-    margin-bottom: 20%;
-    font-weight: normal;
+.recipies-section {
+  text-align: center;
+  margin-bottom: 10%;
 }
 
-.media-box-shadow{
-    box-shadow: 0px 0px 40px 0px #0000001A;
+.recipies-section p {
+  margin-bottom: 5%;
 }
 
-footer{
-    width: 100%;
-    height: 256px;
-    background-color: black;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.recipies-card {
+  width: 25%;
+  padding: 5px;
+  background-color: white;
+  border-radius: 5%;
+  box-shadow: 0px 0px 40px 0px #00000026;
 }
 
-footer h2{
-    color: #676767;
+.recipies-card img {
+  padding-top: 2%;
+  width: 90%;
 }
 
-footer p{
-    color: white;
-    margin-bottom: 0;
+.recipies-card h3 {
+  text-align: start;
+  padding-left: 8%;
+}
+
+.recipies-card p {
+  text-align: start;
+  padding-left: 8%;
+}
+
+.media-section {
+  margin: 5% auto;
+  width: 80%;
+  border: 1px solid #FFF;
+}
+
+.media-section div {
+  border-radius: 10px;
+}
+
+.media-section h1 {
+  margin-bottom: 0px;
+  margin-top: 20%;
+  font-weight: bold;
+}
+
+.media-section p {
+  margin-top: 0px;
+  margin-bottom: 20%;
+  font-weight: normal;
+}
+
+.media-box-shadow {
+  box-shadow: 0px 0px 40px 0px #0000001A;
+}
+
+footer {
+  width: 100%;
+  height: 256px;
+  background-color: black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer h2 {
+  color: #676767;
+}
+
+footer p {
+  color: white;
+  margin-bottom: 0;
 }
